@@ -1,0 +1,45 @@
+* {
+    background-color:black;
+    padding:100px;
+}
+
+.parent {
+    background-color: bisque;
+    width: 100%;
+    height: 700px;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    background-color: #7C83FD;
+    width: 90px;
+    height: 90px;
+}
+
+/*body{
+    background-color:#7C83FD;
+}
+
+@media (min-width:768px){
+    body{
+        background-color:#FCD8D4;
+    }
+}
+
+@media (min-width:1024px){
+    body{
+        background-color:#ECD662;
+    }
+}
+
+@media (min-width:1280px){
+    body{
+        background-color:#A3A847;
+    }
+}
